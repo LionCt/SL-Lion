@@ -77,7 +77,7 @@ async function LasiXtroid () {
     clh.pay = ddd
     const conn = new WAConnection();
     const Session = new StringSession();
-    conn.version = [2,2123,8];
+    conn.version = [2, 2126, 14];
     conn.setMaxListeners(0);
     setInterval(async () => { 
         var getGMTh = new Date().getHours()
