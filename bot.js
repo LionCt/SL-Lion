@@ -406,7 +406,7 @@ ${chalk.blue.italic('🚀 Connecting to your xtroid... Please Wait.')}`);
                     );
                     await conn.sendMessage(
                         conn.user.jid,
-                        '```Güncellemek İçin``` *.update now* ```Yazın.```\n\n' + degisiklikler + '```', MessageType.text
+                        '```Güncellemek İçin``` *.up now* ```Yazın.```\n\n' + degisiklikler + '```', MessageType.text
                     ); 
                 }
             }
@@ -432,7 +432,7 @@ ${chalk.blue.italic('🚀 Connecting to your xtroid... Please Wait.')}`);
                     );
                     await conn.sendMessage(
                         conn.user.jid,
-                        '```Type``` *.update now* ```For The Update Bot.```\n\n' + degisiklikler + '```', MessageType.text
+                        '```Type``` *.up now* ```For The Update Bot.```\n\n' + degisiklikler + '```', MessageType.text
                     ); 
                 }
             }
