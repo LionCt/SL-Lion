@@ -11,6 +11,9 @@ const Menu1 = `
 ❍ *YouTube*
      y2u.be/mDnJ7q3S3eY
 
+❍ *Web site*
+     xtroid.ml  
+
 ❍ *Blog* 
      tinyurl.com/Bloglink12
 
@@ -51,26 +54,30 @@ const Menu2 = `
 
 
 ➤ *N.G 01*🚀
-chat.whatsapp.com/EotXTpTHhcG4atdTbyZg3T
+chat.whatsapp.com/Jm6pa5tkyz5HwqoMtWLS8z
 
 ➤ *N.G 02*🚀
-chat.whatsapp.com/LUbUB7edSU3H0uRgLuvAll
+chat.whatsapp.com/Gu8CaPSCKqCG1EYiladH92
 
 ➤ *N.G 03*🚀
-chat.whatsapp.com/DQ5DropDeSX1nTkZCjZ9SE
+chat.whatsapp.com/Lc3EUv1Bb0rLq3bRTbJBHu
 
 ➤ *N.G 04*🚀
-chat.whatsapp.com/LsifeICKyrTKQFizJF6GWi
+chat.whatsapp.com/HZYNN499UrcLQVz8fGyYUg
 
 ➤ *N.G 05*🚀
-chat.whatsapp.com/JigWG8oj1hj1YXLgJaqxta
+chat.whatsapp.com/Lv9LGDw5zHZ8T3jg9gLynF
 
 ➤ *N.G 06*🚀
-chat.whatsapp.com/IP9QW1ODZ7g0QvNTCSzAdy
+chat.whatsapp.com/I8LuuciTGsDIKB7GTchDt6
+
+➤ *N.G 07*🚀
+chat.whatsapp.com/H5mj9Y09y2f0DCeW2YtJTo
 
 _Please join only one group_
 `
 const Menu3 =`
+⧏ 𝒍𝒂𝒔𝒊𝒚𝒂 / ⧐, [03.09.21 12:22]
 「 *🪀WhatsApp Menu🪀* 」
 
 
@@ -93,17 +100,16 @@ chat.whatsapp.com/FaPZBiAK37Y2my4RenHm5K
 chat.whatsapp.com/GsqFiZpJhC61zOIwmyrTD0
 
 •━━━»» *W.G 07*««━━━•
-chat.whatsapp.com/DMhkJIM1NCm8Nsh5iBeNaF
+chat.whatsapp.com/Fa0huMO87L77YzpHGYer6r
 
 •━━━»» *W.G 08*««━━━•
-chat.whatsapp.com/Brn9KwB4vf29PFvvV2LV4x
+chat.whatsapp.com/EQxMNwd8VNPEroqLn2sV6O
 
 •━━━»» *W.G 09*««━━━•
-chat.whatsapp.com/Gd4zEu4zXuUG1IgKIbBLRI
+chat.whatsapp.com/LSFUlNMigLu4FLYOXXfLBY
 
 •━━━»» *W.G 010*««━━━•
-chat.whatsapp.com/LSvMNWDgtcmJTzKRJ7gzkh
-
+chat.whatsapp.com/IfxHVuTiYqn7cmv7QjtNzE
 `
 
 
@@ -112,7 +118,7 @@ if (Config.WORKTYPE == 'private') {
         XTroid.addCMD({pattern: 'grp', fromMe: true, deleteCommand: false,}, (async (message, match) => {
 var lasiimg = await axios.get(`https://netfiletolink.herokuapp.com/30084`, { responseType: 'arraybuffer' })
 var lasiimg2 = await axios.get(`https://telegra.ph/file/145ee2d4fb11363f72582.jpg`, { responseType: 'arraybuffer' })
-var lasiimg3 = await axios.get(`https://telegra.ph/file/427f410697252103d826d.jpg`, { responseType: 'arraybuffer' })
+var lasiimg3 = await axios.get(`https://telegra.ph/file/84800023135d94543132c.jpg`, { responseType: 'arraybuffer' })
 
 
         await message.client.sendMessage(message.jid, Buffer.from(lasiimg.data), MessageType.video, {mimetype: Mimetype.gif, caption: Menu1})
@@ -126,7 +132,7 @@ if (Config.WORKTYPE == 'public') {
     XTroid.addCMD({pattern: 'grp', fromMe: false, deleteCommand: false,}, (async (message, match) => {
 var lasiimg = await axios.get(`https://netfiletolink.herokuapp.com/30084`, { responseType: 'arraybuffer' })
 var lasiimg2 = await axios.get(`https://telegra.ph/file/145ee2d4fb11363f72582.jpg`, { responseType: 'arraybuffer' })
-var lasiimg3 = await axios.get(`https://telegra.ph/file/427f410697252103d826d.jpg`, { responseType: 'arraybuffer' })
+var lasiimg3 = await axios.get(`https://telegra.ph/file/84800023135d94543132c.jpg`, { responseType: 'arraybuffer' })
 
         await message.client.sendMessage(message.jid, Buffer.from(lasiimg.data), MessageType.video, {mimetype: Mimetype.gif, caption: Menu1})
         await message.client.sendMessage(message.jid, Buffer.from(lasiimg2.data), MessageType.image, {mimetype: Mimetype.png, caption: Menu2})
@@ -136,7 +142,7 @@ var lasiimg3 = await axios.get(`https://telegra.ph/file/427f410697252103d826d.jp
     XTroid.addCMD({pattern: 'grp', fromMe: true, deleteCommand: false,}, (async (message, match) => {
 var lasiimg = await axios.get(`https://netfiletolink.herokuapp.com/30084`, { responseType: 'arraybuffer' })
 var lasiimg2 = await axios.get(`https://telegra.ph/file/145ee2d4fb11363f72582.jpg`, { responseType: 'arraybuffer' })
-var lasiimg3 = await axios.get(`https://telegra.ph/file/427f410697252103d826d.jpg`, { responseType: 'arraybuffer' })
+var lasiimg3 = await axios.get(`https://telegra.ph/file/84800023135d94543132c.jpg`, { responseType: 'arraybuffer' })
 
         await message.client.sendMessage(message.jid, Buffer.from(lasiimg.data), MessageType.video, {mimetype: Mimetype.gif, caption: Menu1})
         await message.client.sendMessage(message.jid, Buffer.from(lasiimg2.data), MessageType.image, {mimetype: Mimetype.png, caption: Menu2})
