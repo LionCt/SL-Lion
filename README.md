@@ -15,9 +15,9 @@
     <br>
 </p>
 
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@CTBOT/Alpha-QR?v=1)
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)]()
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AchiyaCT/Alpha)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)]()
 
 
 
